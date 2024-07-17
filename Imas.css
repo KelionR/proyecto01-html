@@ -1,1 +1,134 @@
-div.cuadros{background-color: blue;}
+*{
+padding: 0;
+margin: 0;
+}
+
+div.menu {background-color: white;
+width: 1263px;
+height: 150px;
+}
+
+img.facebookImas{
+justify-content: center;
+
+}
+
+img.youtubeImas{
+
+    
+}
+
+
+img.intragramImas{
+
+
+}
+
+
+img.twitterImas{
+
+    
+}
+
+
+div.navegadorHeader{background-color: #202c54;
+color: white;
+text-decoration: none;
+display: flex; justify-content: space-around; align-items: center;
+width: 1263px;
+height: 70px;;
+}
+
+a.navegadorText{
+color: white;
+text-decoration: none;
+
+}
+
+
+div.imagenConMovimiento{background-image: url(https://www.imas.go.cr/sites/default/files/styles/slider_full/public/content/banner-servicios_0.jpg?h=afebe79b&itok=5W_TH-JP); background-repeat: no-repeat; background-size: 100%;
+width: 1263px;
+height: 385px;
+}
+
+div.parteInformativa{background-color: white;
+width: 1263px;
+height: 550px;
+
+display: flex; justify-content: space-around; align-items: end;
+}
+
+div.comunicados{background-color: white;
+width:360px;
+height:500px;
+}
+
+div.avisos{background-color: #f3f3f3;
+width:360px;
+height:500px;
+}
+
+div.scrollFacebook{background-color: beige;
+width:340px;
+height:500px;
+}
+
+div.cuadros{background-color: white;
+
+width: 1263px;
+height: 385px;
+
+display: flex; align-items: center; justify-content: space-around;
+}
+
+div.bienestar{background-color: rgb(195, 161, 118);
+width:280px;
+height:200px;
+}
+
+div.desarrolloEducativo{background-color: rgb(49, 49, 206);
+width:280px;
+height:200px;
+}
+
+div.desarrolloProducivo{background-color: rgb(21, 160, 63);
+width:280px;
+height:200px;
+}
+
+div.atencion{background-color: rgb(9, 9, 63);
+width:280px;
+height:200px;
+}
+
+div.infoConVideo{background-color: #eae4e4;
+width: 1263px;
+height: 480px;
+}
+
+ul.videos{background-color: white;
+display: flex; justify-content: space-around; align-items: center;
+
+}
+
+div.conoceMas{background-color: #d8b45c;}
+
+div.{background-color: ;}
+
+div.{background-color: ;}
+
+footer{background-color: #202c54;}
+
+
+
+
+
+
+
+
+
+
+img.facebookImas{ width: 3%; height: 3%;}
+img.youtubeImas{ width: 3%; height: 3%;}
+img.instagramImas{ width: 3%; height: 3%;}
+img.twitterImas{ width: 3%; height: 3%;}
