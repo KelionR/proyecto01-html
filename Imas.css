@@ -8,35 +8,29 @@ width: 1263px;
 height: 150px;
 }
 
-img.facebookImas{
-justify-content: center;
+.menu.ul{align-items: end;}
+
+img.facebookImas{ width: 3%; height: 3%;
+
+}
+img.youtubeImas{ width: 3%; height: 3%;
+
+}
+img.instagramImas{ width: 3%; height: 3%;
+
+}
+img.twitterImas{ width: 3%; height: 3%;
 
 }
 
-img.youtubeImas{
-
-    
-}
-
-
-img.intragramImas{
-
-
-}
-
-
-img.twitterImas{
-
-    
-}
-
+img.rrss{width: 3%; height: 3%;}
 
 div.navegadorHeader{background-color: #202c54;
 color: white;
 text-decoration: none;
 display: flex; justify-content: space-around; align-items: center;
 width: 1263px;
-height: 70px;;
+height: 70px;
 }
 
 a.navegadorText{
@@ -46,9 +40,22 @@ text-decoration: none;
 }
 
 
-div.imagenConMovimiento{background-image: url(https://www.imas.go.cr/sites/default/files/styles/slider_full/public/content/banner-servicios_0.jpg?h=afebe79b&itok=5W_TH-JP); background-repeat: no-repeat; background-size: 100%;
+div.imagenConMovimiento{background-image: url(https://www.imas.go.cr/sites/default/files/styles/slider_full/public/content/banner-servicios_0.jpg?h=afebe79b&itok=5W_TH-JP); background-repeat: no-repeat; background-size: 100%;   
 width: 1263px;
 height: 385px;
+}
+
+div.textoImagenConMovmiento{ background-color: #46a5adc8;
+width: 630px;
+height: 400px;
+text-decoration: none;
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.linksConMovimento{
+color: white;
+text-decoration: none;
 }
 
 div.parteInformativa{background-color: white;
@@ -74,7 +81,7 @@ height:500px;
 }
 
 div.cuadros{background-color: white;
-
+color: white;
 width: 1263px;
 height: 385px;
 
@@ -84,21 +91,25 @@ display: flex; align-items: center; justify-content: space-around;
 div.bienestar{background-color: rgb(195, 161, 118);
 width:280px;
 height:200px;
+text-align: center;
 }
 
 div.desarrolloEducativo{background-color: rgb(49, 49, 206);
 width:280px;
 height:200px;
+text-align: center;
 }
 
 div.desarrolloProducivo{background-color: rgb(21, 160, 63);
 width:280px;
 height:200px;
+text-align: center;
 }
 
 div.atencion{background-color: rgb(9, 9, 63);
 width:280px;
 height:200px;
+text-align: center;
 }
 
 div.infoConVideo{background-color: #eae4e4;
@@ -106,12 +117,21 @@ width: 1263px;
 height: 480px;
 }
 
+h2.videos{text-align: center;color: #0c94b4;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 200%;}
+
 ul.videos{background-color: white;
+list-style: none;
 display: flex; justify-content: space-around; align-items: center;
 
 }
 
-div.conoceMas{background-color: #d8b45c;}
+div.conoceMas{background-color: #d8b45c;
+width: 1263px;
+height: 150px;
+
+}
 
 div.{background-color: ;}
 
@@ -128,7 +148,4 @@ footer{background-color: #202c54;}
 
 
 
-img.facebookImas{ width: 3%; height: 3%;}
-img.youtubeImas{ width: 3%; height: 3%;}
-img.instagramImas{ width: 3%; height: 3%;}
-img.twitterImas{ width: 3%; height: 3%;}
+
