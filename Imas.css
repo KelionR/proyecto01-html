@@ -4,22 +4,41 @@ margin: 0;
 }
 
 div.menu {background-color: white;
-width: 1263px;
+width: 100%;
 height: 150px;
+display: flex;
+}
+
+.imasLogo{
+width: 35%;
+
+}
+
+.iconos{
+width: 50px;
+
+}
+
+.redesSociales{
+text-align: end;
+justify-content: space-evenly;
+width: 60%;
+display: flex;
+align-items: flex-end;
+flex-direction: column
+}
+.buscador{
+text-align: ;
+
+}
+
+.headerContenido{
+text-align: end;
 }
 
 .menu.ul{align-items: end;}
 
-img.facebookImas{ width: 3%; height: 3%;
-
-}
-img.youtubeImas{ width: 3%; height: 3%;
-
-}
-img.instagramImas{ width: 3%; height: 3%;
-
-}
-img.twitterImas{ width: 3%; height: 3%;
+img.logoRedesSociales{ width: 40%; height: 40%;
 
 }
 
@@ -45,17 +64,12 @@ width: 1263px;
 height: 385px;
 }
 
-div.textoImagenConMovmiento{ background-color: #46a5adc8;
+.textoImagenConMovmiento{ background-color: #2a868fd5;
 width: 630px;
 height: 400px;
-text-decoration: none;
+text-align: center; 
 color: white;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-div.linksConMovimento{
-color: white;
-text-decoration: none;
 }
 
 div.parteInformativa{background-color: white;
@@ -113,8 +127,26 @@ text-align: center;
 }
 
 div.infoConVideo{background-color: #eae4e4;
+text-align: center;
 width: 1263px;
 height: 480px;
+}
+.yutu{
+border: #202c54 solid; 
+width: 450px;
+height: 300px;
+justify-content: end;
+}
+
+.estrategia{
+text-align: center;
+color: #0c94b4;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vayanCentro{
+
+
 }
 
 h2.videos{text-align: center;color: #0c94b4;
@@ -128,18 +160,37 @@ display: flex; justify-content: space-around; align-items: center;
 }
 
 div.conoceMas{background-color: #d8b45c;
+color: white;
 width: 1263px;
 height: 150px;
-
+text-align: center;
 }
 
-div.{background-color: ;}
-
-div.{background-color: ;}
-
-footer{background-color: #202c54;}
+.cuadrosConozcaMas{ display: flex; justify-content: space-around;
 
 
+}
+div.pepe{background-color: #0034a0;
+width:300px;
+height:40px;
+}
+
+div.pepa{background-color: #0034a0;
+width:300px;
+height:40px;
+}
+
+div.papa{background-color: #0034a0;
+width:300px;
+height:40px;
+}
+
+
+
+footer{background-color: #202c54;
+color: white;}
+
+.footer{display: flex;}
 
 
 
